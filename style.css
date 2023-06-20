@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    height: 120vh;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.3)), url(./images/backNet.jpg);
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 32px;
+    width: 100%;
+    padding: 26px;
+}
+
+.navbar img {
+    height: 70px;
+}
+
+.login-btn {
+    height: 45px;
+    padding: 15px;
+    font-weight: bold;
+}
+
+.login-btn:hover {
+    background-color: rgb(51, 51, 51);
+    color: white;
+}
+
+.main-container {
+    margin-top: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-container h4 {
+    margin: 10px;
+    color: #00ed82;
+}
+
+.main-container h2 {
+    margin: 10px;
+    color: white;
+}
+
+.main-btn {
+    height: 50px;
+    width: 50%;
+    background-color: #1ce783;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.main-btn:hover {
+    background-color: rgb(63, 185, 189);
+}
+
+.main-container a {
+    margin: 10px;
+    color: white;
+}
+
+.backmain-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 80px;
+    padding-right: 16%;
+}
+
+.backmain-container img {
+    opacity: 0.5;
+}
+
+.back-container {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.back1-container {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+
+.back-container h4 {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #00ed82;
+}
+
+.back-container h2 {
+    margin-top: 20px;
+}
+
+.back-btn {
+    font-weight: bold;
+    height: 50px;
+    width: 150%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 1px solid white;
+    background: linear-gradient(179.81deg, rgba(4, 4, 4, 0.7) .17%, rgba(4, 4, 4, 0.45) 85.02%, rgba(4, 4, 4, 0.3) 112.52%) !important;
+    ;
+}
+
+.back-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.back1-container a {
+    margin-top: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+}
+
+.image-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.image-section h4 {
+    margin: 10px;
+    color: #00ed82;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.image-section h1 {
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 900;
+}
+
+.image {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.text-section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.text-section h3 {
+    margin: 20px;
+    font-size: 13px;
+    color: #00ed82;
+    font-weight: 600;
+}
+
+.text-section h1 {
+    margin: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.text-section p {
+    font-weight: 550;
+    margin: 10px;
+}
+
+.text-section h4 {
+    font-size: 10px;
+    margin: 20px;
+    font-weight: 300;
+}
+
+.text-section a {
+    color: white;
+    font-weight: bold;
+}
+
+.sports-section {
+    border-top: 1px solid gray;
+    height: 100vh;
+    background-image: url(./images/original.jpg);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 140px;
+}
+
+.sports-section h4 {
+    font-size: 12px;
+    font-weight: 200;
+}
+
+.sports-section h1 {
+    margin: 20px;
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.sports-section p {
+    margin: 20px;
+    font-weight: 500;
+}
+
+.sports-logo {
+    height: 45px;
+    background-color: white;
+    border-radius: 65%;
+    width: 46px;
+    margin: 15px;
+}
+
+.sports-logo h4 {
+    font-weight: 100;
+}
+
+
+/* .plan {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+}
+
+.plan h1 {
+    margin-top: 40px;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.plan p {
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.plan h3 {
+    font-weight: 500;
+    padding-bottom: 20px;
+    font-size: 16px;
+}
+
+.plan hr {
+    height: 1px;
+    color: gray;
+    width: 70%;
+} */
+
+.footer-container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px;
+}
+
+.footer-lists {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-lists .list-head {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #272c34;
+}
+
+.footer-lists li {
+    list-style: none;
+    color: #586174;
+    font-size: 13px;
+    line-height: 30px;
+}
+
+.divider {
+    width: 100%;
+    height: 3px;
+    border-top: 1px #ccc solid;
+    margin: 30px 0;
+}
+
+.social-icons {
+    margin-top: 30px;
+}
+
+.social-icons i {
+    margin: 20px;
+    font-size: 25px;
+    color: #586174;
+}
